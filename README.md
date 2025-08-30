@@ -44,7 +44,7 @@ Tech Stack
 
 
 - Installation and Run
-  - git clone 
+  - git clone https://github.com/Luxlinna/assignment-.git
   - npm install
 
   - npm run dev
