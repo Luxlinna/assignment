@@ -1,0 +1,39 @@
+Usage Guide
+
+1. Login / Register
+
+    - Navigate to /login.
+
+    - Login with email/password or Google.
+
+    - After authentication, you will be redirected to the homepage.
+
+2. Browsing Books
+
+    - The left panel shows the list of books.
+
+    - Use the search bar to find books by title or author.
+
+    - The first matching book is automatically selected and highlighted.
+
+3. Viewing Book Details
+
+    - Click on a book in the list.
+
+    - The right panel (desktop) or bottom panel (mobile) displays:
+
+        . Book cover (full height & width)
+
+        . Title, author, year, country, language, pages
+
+        . Link to Wikipedia
+
+4. Pagination
+
+    - Navigate between pages using the pagination buttons at the bottom of the book list.
+
+    - Pagination remains visible while scrolling the book list.
+
+5. Logout
+
+    - Click the Logout button in the Navbar to end your session.
