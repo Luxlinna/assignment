@@ -11,8 +11,8 @@ export interface Book {
 }
 
 export async function fetchBooks(page = 0, size = 20, search = "") {
-  const username = import.meta.env.VITE_API_USERNAME;
-  const password = import.meta.env.VITE_API_PASSWORD;
+  const username = "sampleId";
+  const password = "Secret";
 
   const params = new URLSearchParams({
     page: page.toString(),

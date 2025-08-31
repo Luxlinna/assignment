@@ -1,7 +1,7 @@
 export async function fetchBooks(page = 0, size = 20, search = "") {
-  const API_URL = import.meta.env.VITE_API_URL;
-  const username = import.meta.env.VITE_API_USERNAME;
-  const password = import.meta.env.VITE_API_PASSWORD;
+  const API_URL = "http://assignment-be.jaksmok.com/api/v1";
+  const username = "sampleId";
+  const password = "Secret";
 
   const params = new URLSearchParams({
     page: page.toString(),
