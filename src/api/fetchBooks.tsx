@@ -1,5 +1,5 @@
 export async function fetchBooks(page = 0, size = 20, search = "") {
-  const API_URL = "http://assignment-be.jaksmok.com/api/v1";
+  const API_URL = "https://assignment-be.jaksmok.com/api/v1";
   const username = "sampleId";
   const password = "Secret";
 
