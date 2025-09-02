@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
     server: {
       proxy: {
         '/api': {
-          target: env.VITE_API_URL,   // pulled from .env
+          target: env.VITE_API_URL || 'https://assignment-be.jaksmok.com/api/v1',   // pulled from .env
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ''),
         },
