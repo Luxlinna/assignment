@@ -10,6 +10,8 @@ export interface Book {
   imageUrl: string;
 }
 
+const API_URL = "https://assignment-be.jaksmok.com/api/v1";
+
 export async function fetchBooks(page = 0, size = 20, search = "") {
   const username = "sampleId";
   const password = "Secret";
@@ -36,13 +38,16 @@ export async function fetchBooks(page = 0, size = 20, search = "") {
 
   return response.json();
 }
+
+
 export const fetchBookById = async (id: number) => {
-  const username = import.meta.env.VITE_API_USERNAME;
-  const password = import.meta.env.VITE_API_PASSWORD;
+  // const API_URL = import.meta.env.VITE_API_URL;
+  const username = "sampleId";
+  const password = "Secret";
 
   const authHeader = "Basic " + btoa(`${username}:${password}`);
 
-  const response = await fetch(`/api/books/${id}`, {
+  const response = await fetch(`${API_URL}/books/${id}`, {
     headers: {
       Authorization: authHeader,
       "Content-Type": "application/json",
@@ -55,4 +60,3 @@ export const fetchBookById = async (id: number) => {
 
   return response.json();
 };
-

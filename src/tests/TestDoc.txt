@@ -32,7 +32,7 @@ src/tests/test_api.py::test_stress_books_endpoint PASSED          [100%]
 
 #############################
 
-Manual testing with Postman:
+## Manual testing with Postman: ##
 ## Test "Get book list"
 - GET https://assignment-be.jaksmok.com/api/v1/books
 
