@@ -8,7 +8,7 @@ https://jaksmok-assignment.netlify.app
 
 
 - Installation and Run
-  - git clone https://github.com/Luxlinna/assignment-.git
+  - git clone https://github.com/Luxlinna/assignment.git
   - npm install
 
   - npm run dev
