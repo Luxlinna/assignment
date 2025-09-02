@@ -1,10 +1,10 @@
 # React + TypeScript + Vite
 
-Hosting with Netlify:
-https://jazzy-croquembouche-b7bff0.netlify.app
+## Hosting with Netlify:
+https://jaksmok-assignment.netlify.app
 
 
-Book App
+## Book App ##
 
 
 - Installation and Run
