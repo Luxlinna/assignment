@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+Hosting with Netlify:
+https://jazzy-croquembouche-b7bff0.netlify.app
+
+
 Book App
 
 
