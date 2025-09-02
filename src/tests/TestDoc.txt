@@ -1,4 +1,13 @@
-Code coverage tools to setup Pytest tests in Python
+Code coverage tools to 
+https://www.lambdatest.com/learning-hub/test-coverage
+
+- Realltime Testing :
+ Link : https://jaksmok-assignment.netlify.app
+
+
+#####################################
+
+setup Pytest tests with Python
 
 ### assignment (Project folder)
 Create tests folder and file:
