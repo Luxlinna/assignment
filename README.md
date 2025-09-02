@@ -2,6 +2,14 @@
 
 Book App
 
+
+- Installation and Run
+  - git clone https://github.com/Luxlinna/assignment-.git
+  - npm install
+
+  - npm run dev
+
+
 A responsive web application to browse, search, and view details of books. The app uses Firebase for authentication and integrates with a REST API to fetch book data. Built with Vite.js, React, TypeScript, TailwindCSS, and Material-UI.
 
 Features
@@ -42,12 +50,6 @@ Tech Stack
   . Authentication
     . Firebase Auth (Email & Google Sign-in)
 
-
-- Installation and Run
-  - git clone https://github.com/Luxlinna/assignment-.git
-  - npm install
-
-  - npm run dev
 
 ###
 - npm install

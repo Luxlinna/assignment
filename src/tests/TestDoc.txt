@@ -1,0 +1,46 @@
+Code coverage tools to setup Pytest tests in Python
+
+### assignment (Project folder)
+Create tests folder and file:
+src/tests/test_api.py
+
+## Install Dependencies:
+- pip install pytest requests
+or 
+- pip install pytest
+
+## Run test:
+- pytest -v src/tests/test_api.py
+
+or
+- pytest -v 
+
+
+## RESULTS:
+collected 7 items                                                       
+
+src/tests/test_api.py::test_books_list PASSED                     [ 14%]
+src/tests/test_api.py::test_book_detail[1] PASSED                 [ 28%]
+src/tests/test_api.py::test_book_detail[2] PASSED                 [ 42%]
+src/tests/test_api.py::test_book_detail[3] PASSED                 [ 57%]
+src/tests/test_api.py::test_search_books PASSED                   [ 71%]
+src/tests/test_api.py::test_unauthorized_access PASSED            [ 85%]
+src/tests/test_api.py::test_stress_books_endpoint PASSED          [100%]
+
+
+
+
+#############################
+
+Manual testing with Postman:
+## Test "Get book list"
+- GET https://assignment-be.jaksmok.com/api/v1/books
+
+## Set up Authorization
+- In Postman, go to Autorization tab 
+- Select Basic Auth
+- Username = sampleId
+- Password = Secret
+
+## Test "Get book by ID
+- GET https://assignment-be.jaksmok.com/api/v1/books/1
