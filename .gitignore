@@ -28,3 +28,7 @@ env.local
 *.sln
 *.sw?
 
+
+__pycache__/
+*.pyc
+
